@@ -88,6 +88,26 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
+            <!--address-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--icon-->
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--TextFeild-->
+            <EditText
+                android:hint="address :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
             <!--Submit-->
             <TextView
                 android:textStyle="bold"
