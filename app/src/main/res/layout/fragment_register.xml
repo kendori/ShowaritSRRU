@@ -4,17 +4,13 @@
     android:layout_height="match_parent">
 
     <!--Toolbar-->
-    <android.support.v7.widget.Toolbar
 
-        <TextView
-            android:textSize="15pt"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="Register"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    <android.support.v7.widget.Toolbar
+        style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbarRegister"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"/>
+        android:layout_height="wrap_content"/>
 
 
 
@@ -108,25 +104,6 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
-            <!--Submit-->
-            <TextView
-                android:textStyle="bold"
-                android:textColor="@color/colorAccent"
-                android:textAlignment="center"
-                android:textSize="18sp"
-                android:text="Submit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <!--Cancle-->
-            <TextView
-                android:textStyle="bold"
-                android:textColor="@color/colorPrimary"
-                android:textAlignment="center"
-                android:textSize="18sp"
-                android:text="Cancle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
 
     </LinearLayout>
